@@ -3,7 +3,7 @@ const dist_dir = path.join(__dirname, 'client/dist');
 const src_dir = path.join(__dirname, 'client/src');
 
 const config = {
-  entry: './client/src/app.jsx',
+  entry: './client/src/index.jsx',
   output: {
     filename: 'bundle.js',
     path: dist_dir
